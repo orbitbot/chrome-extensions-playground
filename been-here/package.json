@@ -1,0 +1,10 @@
+{
+  "name": "been-here",
+  "version": "0.0.1",
+  "description": "POC chrome extension displays floating div when a user visits a predefined and configurable list of domains",
+  "main": "contentscript.js",
+  "license": "ISC",
+  "devDependencies": {
+    "mithril": "git://github.com/lhorie/mithril.js.git#693c87f5f1513d37e5a6a291ccc50f32503f8a22"
+  }
+}

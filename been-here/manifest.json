@@ -1,0 +1,19 @@
+{
+  "name"        : "Been here",
+  "description" : "POC - display a floating div when a user visits a predefined and configurable list of domains",
+  "version"     : "0.0.1",
+  "permissions" : ["storage"],
+  "content_scripts": [
+    {
+      "matches"    : ["<all_urls>"],
+      "run_at"     : "document_start",
+      "all_frames" : true,
+      "js"         : ["node_modules/mithril/mithril.js", "content/script.js"]
+    }
+  ],
+  "options_ui" : {
+    "page"         : "options/options.html",
+    "chrome_style" : true
+  },
+  "manifest_version": 2
+}

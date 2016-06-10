@@ -1,0 +1,14 @@
+.section {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.domain > .option {
+  padding: 0.6em 0;
+}
